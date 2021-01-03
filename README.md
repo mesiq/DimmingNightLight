@@ -35,4 +35,4 @@ _Note: Using Resistor instead of step-down converter is not efficient when using
 Circuit diagram
 ---
 Following diagram uses 10 Ohm LED Resistor to drop down voltage from 5V to 3.3V for LED which has forward current 150mA.
-![alt text](https://github.com/mesiq/DimmingNightLight/blob/main/circuit.svg "Circuit diagram with 5V DC power supply")
+![alt text](https://github.com/mesiq/DimmingNightLight/blob/main/images/circuit.svg "Circuit diagram with 5V DC power supply")
