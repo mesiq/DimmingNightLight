@@ -12,7 +12,7 @@ You will need following parts:
 - 5V power supply (if you use 12V PS, I recommend to use step down dc-dc converter to 3.3V to power LED)
 - Arduino (I've used Arduino Nano)
 - LED (I've used 0.5W warm white, 0.15A)
-- PIR sensor
+- PIR sensor (I've used HC-SR501)
 - Photoresistor
 - 2x 10kOhm Resistor
 - n-channel MOSFET transistor (I've used 2N700 which has limit 0.2A)
