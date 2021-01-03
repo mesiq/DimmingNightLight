@@ -1,4 +1,4 @@
-Ardunio project for a better sensor night light with dimming a LED.
+A better sensor dimming LED night light with Arduino
 ===
 
 Night light includes following features:
@@ -29,3 +29,10 @@ You need to know specification of your LED:
 R = (V<sub>Source</sub> - V<sub>LED</sub>)/I<sub>LED</sub>
 
    In my case: R = (5-3.3)/0.15 =~ 11 Ohm so 10 Ohm resistor will be just fine.
+   
+_Note: Using Resistor instead of step-down converter is not efficient when using high voltage power supply - e.g. 12 V as resistor will consume power and transform it to heat._
+
+Circuit diagram
+---
+Following diagram uses 10 Ohm LED Resistor to drop down voltage from 5V to 3.3V for LED which has forward current 150mA.
+![alt text](https://github.com/mesiq/DimmingNightLight/blob/main/circuit.svg "Circuit diagram with 5V DC power supply")
