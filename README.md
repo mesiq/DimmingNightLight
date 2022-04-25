@@ -15,7 +15,7 @@ You will need following parts:
 - PIR sensor (I've used HC-SR501)
 - Photoresistor
 - 2x 10kOhm Resistor
-- n-channel MOSFET transistor (I've used 2N700 which has limit 0.2A)
+- n-channel MOSFET transistor (I've used 2N7000 which has limit 0.2A)
 - Resistor/step down DC-DC converter in case you don't match your voltage definition to power your LED (in my case 10Ohm)
 
 
